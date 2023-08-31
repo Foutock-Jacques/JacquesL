@@ -1,0 +1,148 @@
+
+li{
+    list-style-type: none;
+    font-family: forte;
+    font-size: 140%;
+    color: midnightblue;
+
+}
+ul{
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+    align-items:baseline;
+
+
+}
+body{
+    background-color: yellow;
+}
+li>a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 7%;
+    background-color: royalblue;
+    border-radius: 7px;
+}
+li>a:hover{
+    background-color: midnightblue;
+    color: white;
+    transition: all, 1s;
+}
+        #more>a:hover{
+    background-color: whitesmoke;
+    color: darkcyan;
+    transition: all, 0.4s;
+}
+        #contact>a:hover{
+    background-color: darkorange;
+    color: red;
+    transition: all, 0.4s;
+}
+        #about_us>a:hover{
+    background-color: midnightblue;
+    color: greenyellow;
+    transition: all, 0.4s;
+}
+img{
+height: 200px;
+widows: 200px;
+border-radius: 20px;
+}
+#img{
+float: right;
+margin-top: 8%;
+margin-right: 5%;
+}
+#paragraph{
+
+width: 30%;
+margin-top: 11%;
+margin-left: 5%;
+}
+#btn1{
+padding: 6%;
+background-color: floralwhite;
+border-radius: 90%;
+border-style: dotted;
+cursor: revert-layer;
+margin-left: 9%;
+cursor: crosshair;
+font-family: forte;
+font-weight: bolder;
+font-size: 130%;
+}
+#btn1:hover{
+background:linear-gradient(90deg,royalblue,orange) ;
+color: whitesmoke;
+}
+#btn2:hover{
+background: linear-gradient(90deg,darkcyan,whitesmoke);
+transition: opacity 2s;
+
+}
+#btn2{
+padding: 4%;
+background-color: wheat;
+border-radius: 90px;
+border-style: hidden;
+float: right;
+margin-top: 3%;
+margin-right: 25%;
+cursor: pointer;
+font-family: forte;
+font-weight: bolder;
+font-size: 100%;
+}
+p{
+font-family: forte;
+font-size: 100%;
+text-transform:capitalize ;
+font-weight: bolder;
+color: midnightblue;
+}
+.buttons{
+gap: 4.5%;
+display: flex;
+justify-content: center;
+align-items:baseline;
+height: 7vh;
+width:99.8%;
+margin-top: 10%;
+}
+.buttons>input{
+padding: 1%;
+cursor: pointer;
+height: 9vh;
+width: 6%;
+margin-top: 0.6%;
+border-radius: 18%;
+}
+.buttons>input:hover{
+border-radius: 8px;
+border: solid 1.8px white;
+}
+#b1{
+background-image: url("5.jpg");
+background-size: 15vh;
+background-repeat: no-repeat;
+}
+#b2{
+background-image: url("1.jpg");
+background-size: 13.8vh;
+background-repeat: no-repeat;	
+}
+#b3{
+background-image: url("4.jpg");
+background-size: 12.6vh;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+#b4{
+background-image: url("6.jpg");
+background-size: 15vh;
+background-repeat: no-repeat;	
+background-position: center;
+
+}

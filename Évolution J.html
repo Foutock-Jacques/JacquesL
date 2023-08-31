@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Evolution.css">
+	<title> Evolution </title>
+</head>
+<body>
+
+<ul>
+	<li><a href="#"> Home </a></li>
+	<li id="contact"><a href="#"> Contact </a></li>
+	<li id="about_us"><a href="#"> About_Us </a></li>
+	<li id="more"><a href="#"> More </a></li>
+
+</ul>
+<div id="img"><img src="5.jpg" id="image"></div>
+<div id="paragraph">
+	<p>
+		Hello everyone. Here i am and now i'm proceeding in html pages becaues i need to be the first in my center eben if my objective is not yet clear but i need to progress in my learning speed to catchup in various programming languages like PHP, CSS, and their respective frameworks 
+	</p>
+	<input id="btn1" type="button" name="btn1" value="Subscribe" width="50" height="50">
+		<input id="btn2" type="button" name="btn2" value=" About Us " width="30" height="20">
+</div>
+<div class="buttons">
+<input id="b1" type="button" name="Bottom btn" width="100" height="50" value="       "  onclick="ChangeGhoul()">
+<input id="b2" type="button" name="Bottom btn1" width="50" height="50" value="       "onclick="Change2()" >
+<input id="b3" type="button" name="Bottom btn2" width="50" height="50"value="       "onclick="Change3()">
+<input id="b4" type="button" name="Bottom btn3" width="50" height="50"value="       "onclick="Change4()">
+</div>
+<script type="text/javascript">
+	function ChangeGhoul() {
+		document.body.style.background='linear-gradient( 90deg,yellowgreen,yellow,yellow)';
+	document.querySelector("p").setAttribute("style","color:midnightblue; transition:all, 2s;");
+	document.querySelector("#b1").setAttribute("style"," transition:all, 0.3s;");
+	document.querySelector("p").style.cssText=" color:midnightblue; transition:all, 0.6s;";
+	document.querySelector("#btn1").setAttribute("style"," color:midnightblue; transition:all, 1s;");
+	document.querySelector("#btn2").setAttribute("style","background:floral; color:black; transition:all, 1s;");
+	var img = document.getElementById('image');
+  img.src ='5.jpg';
+}
+
+function Change2(){
+	document.body.style.background='linear-gradient( 130deg,black,black,black,black,black,black,darkred,red)';
+	document.querySelector("#b2").setAttribute("style"," color:red; transition:all, 0.6s;");
+	document.querySelector("p").style.cssText=" color:white;";
+	document.querySelector("#btn1").setAttribute("style","background:red; color:white; transition:all, 1.5s;");
+	document.querySelector("#btn2").setAttribute("style","background:darkred; color:white; transition:all, 0.6s;");
+  var img = document.getElementById('image');
+  img.src ='1.jpg';
+  let transi = document.getElementById('btn2') ;
+  transi.style.opacity="0.6";
+
+}
+function Change3(){
+	document.body.style.background='linear-gradient( 90deg,black,black)';
+	document.querySelector("#btn2").setAttribute("style"," color:darkred; transition:all, 1s;");
+	document.querySelector("#btn1").setAttribute("style"," color:red; transition:all, 0.5s;");
+	document.querySelector("p").style.cssText=" color:red;";
+	document.querySelector("#b3").setAttribute("style"," transition:all, 1.5s;");
+	var img = document.getElementById('image');
+  img.src ='4.jpg';
+}
+function Change4(){ 
+	document.querySelector("#btn1").setAttribute("style","color:blue; transition:all, 1s;");
+	document.querySelector("p").style.cssText=" color:white;";
+	document.querySelector("#b4").setAttribute("style"," transition:all, 1.5s;");
+	document.querySelector("#btn2").setAttribute("style","color:black; transition:all, 1s;");
+	document.body.style.cssText=" background:linear-gradient( 55deg,navy,navy,navy,black,black,black);";
+	var img = document.getElementById('image');
+  img.src ='6.jpg';
+}
+
+</script>
+</body>
+</html>
